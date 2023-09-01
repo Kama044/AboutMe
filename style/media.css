@@ -1,0 +1,233 @@
+@media(max-width:1000px){
+    .intro__title{
+        margin-bottom: 100px;
+    }
+    .intro{
+        height: 500px;
+    }
+    .work__box{
+        justify-content: center;
+        gap: 30px;
+    }
+    .work__card{
+        width: 260px;
+    }
+    .work__card img{
+        width: 100%;
+    }
+    .work__title{
+        margin: 12px 0;
+        font-size: 18px;
+    }
+    .work__text{
+        width: 100%;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 12px;
+    }
+    .work__link{
+        padding: 6px 8px;
+        font-size: 16px;
+        line-height: 100%;
+    }
+    .work{padding: 30px 0;}
+}
+@media(max-width:800px){
+    .intro__title{
+        margin-bottom: 50px;
+        font-size: 32px;
+    }
+    .intro{
+        height: 420px;
+    }
+    .intro__link{
+        font-size: 28px;
+        padding: 8px 16px;
+        line-height: 100%;
+    }
+    .nav__logo{
+        font-size: 32px;
+        line-height: 100%;
+    }
+    .nav__link{
+        font-size: 20px;
+        line-height: 100%;
+    }
+    .title{
+        margin-bottom: 30px;
+        font-size: 32px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .about__title{
+        margin: 20px 0;
+        text-align: center;
+        font-size: 30px;
+    }
+    .about__box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__box img{
+        width: 500px;
+    }
+    .about{
+        padding-bottom: 30px;
+    }
+    .footer{
+        padding: 30px 0;
+    }
+    .footer__title{
+        font-size: 32px;
+        line-height: 100%;
+        margin-bottom: 20px;
+    }
+    .footer__link img{
+        width: 40px;
+    }
+}
+@media(max-width:700px){
+    .nav__list{
+        position: fixed;
+        flex-direction: column;
+        background-color: rgb(22,22,45);
+        top: 0;
+        padding: 50px;
+        text-align: center;
+        height: 100vh;
+        padding-top: 100px;
+        right: -100%;
+        transition: 0.5s;
+    }
+    #input:checked ~ .nav__list{
+        right: 0;
+    }
+    .nav__cl{
+        display: block;
+    }
+    .nav__menu{
+        display: block;
+    }
+    .nav__logo{
+        font-size: 25px;
+    }
+    .intro__title{
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+    .intro__link{
+        font-size: 20px;
+    }
+    .intro{
+        height: 350px;
+    }
+}
+@media(max-width:600px){
+    .about{
+        padding: 20px 0;
+    }
+    title{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .about__box img{
+        width: 300px;
+    }
+    .about__title{
+        font-size: 25px;
+        margin: 15px 0;
+        line-height: 100%;
+    }
+    .about__text{
+        font-size: 15px;
+        line-height: 120%;
+        text-align: center;
+    }
+    .work{
+        padding: 20px 0;
+    }
+    .work__box{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: start;
+        padding-bottom: 10px;
+
+    }
+    .work__card{
+        flex-shrink: 0;
+        width: 220px;
+    }
+    .work__card img{
+        width: 100%;
+    }
+    .work__title{
+        margin: 5px 0;
+        line-height: 100%;
+    }
+    .work__text{
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .work__box::-webkit-scrollbar{
+        height: 5px;
+    }
+    .work__box::-webkit-scrollbar-thumb{
+        background-color: aqua;
+        border-radius: 30px;
+    }
+    .footer{
+        padding: 20px 0;
+    }
+    .footer__title{
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
+    .footer__info{
+        justify-content: center;
+        gap: 30px;
+    }
+    .footer__link img{
+        width: 30px;
+    }
+}
+@media(max-width:500px){
+    .about__img{
+        width: 250px;
+    }
+    .about__title{
+        margin: 15px 0;
+        font-size: 20px;
+        line-height: 100%;
+    }
+    .about__text{
+        width: 100%;
+    }
+    .intro__title{
+        margin-bottom: 10px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .nav__list{
+        padding: 30px;
+    }
+    .nav__logo{
+        font-size: 22px;
+    }
+    .nav{
+        padding: 12px 0;
+    }
+    .nav__cl{
+        top: 15px;
+        left: 15px;
+    }
+}
+@media(max-width:450px){
+    .about__text{
+        display: -webkit-box;
+        -webkit-line-clamp: 10;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
